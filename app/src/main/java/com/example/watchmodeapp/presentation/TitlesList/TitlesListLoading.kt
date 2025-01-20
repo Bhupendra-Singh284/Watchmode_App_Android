@@ -28,7 +28,7 @@ fun TitlesListLoadingScreen() {
         repeat(6) {
             Box(
                 Modifier
-                    .padding(top=10.dp,bottom = 20.dp)
+                    .padding(top=10.dp,bottom = 10.dp)
                     .fillMaxWidth()
                     .height(100.dp)
                     .background(color = darkBlue, shape = RoundedCornerShape(10.dp))
